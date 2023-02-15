@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Jogo da velha</title>
+    </head>
+    <body>
+        <div style="background: black;">
+            <div style="display: flex; flex-direction: row; margin-bottom: 5px;">
+                <div id="A1" onclick="square_clicked(this)" class="square" style="margin-right: 5px;"></div>
+                <div id="A2" onclick="square_clicked(this)" class="square"></div>
+                <div id="A3" onclick="square_clicked(this)" class="square" style="margin-left: 5px;"></div>
+            </div>
+            
+            <div style="display: flex; flex-direction: row;">
+                <div id="B1" onclick="square_clicked(this)" class="square" style="margin-right: 5px;"></div>
+                <div id="B2" onclick="square_clicked(this)" class="square"></div>
+                <div id="B3" onclick="square_clicked(this)" class="square" style="margin-left: 5px;"></div>
+            </div>
+
+            <div style="display: flex; flex-direction: row; margin-top: 5px;">
+                <div id="C1" onclick="square_clicked(this)" class="square" style="margin-right: 5px;"></div>
+                <div id="C2" onclick="square_clicked(this)" class="square"></div>
+                <div id="C3" onclick="square_clicked(this)" class="square" style="margin-left: 5px;"></div>
+            </div>
+        </div>
+        
+        <script src="main.js"></script>
+    </body>
+</html>
