@@ -81,7 +81,7 @@ function bot() {
     }
 
     if (player == players[1]) {
-        // horizontal
+        // vertical
         if (empty(A1, A2, A3)) {
             if (check_play(A1, A2)) {
                 click(A3)
@@ -132,9 +132,9 @@ function bot() {
                 return
             }
         }
-        // end horizontal
+        // end vertical
 
-        // vertical
+        // horizontal
         if (empty(A1, B1, C1)) {
             if (check_play(A1, B1)) {
                 click(C1)
@@ -185,7 +185,7 @@ function bot() {
                 return
             }
         }
-        // end vertical
+        // end horizontal
 
         if (empty(A1, B2, C3)) {
             if (check_play(A1, B2)) {
