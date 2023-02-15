@@ -1,4 +1,4 @@
-let players = [ "G48r13l2", "I.A" ]
+let players = [ "(Player name)", "BOT" ]
 let player = players[0];
 let winner = null;
 
